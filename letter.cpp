@@ -1,2 +1,7 @@
 #include "Dict.h"
-#include "combo.h"
+#include "Combo.h"
+
+int main(int argc, char const *argv[]) {
+  /* code */
+  return 0;
+}

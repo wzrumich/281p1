@@ -7,14 +7,13 @@
 class combo {
 private:
   /* data */
-  int size;
 
 public:
+  static std::map<string, bool> word_map;
   deque<Dict> container;
-  bool check_empty();
-  void mode_change();
-  void mode_length();
-  void mode_swap();
+  void mode_change(vector<string>& input, string word);
+  void mode_length(vector<string>& input, string word);
+  void mode_swap(vector<string>& input, string word);
 
   combo ();
   virtual ~combo ();

@@ -207,9 +207,9 @@ help:
 # TODO (end) #
 ######################
 dict.o: Dict.h Dict.cpp
-combo.o: combo.h combo.cpp
-letter.o: letter.cpp Dict.h combo.h
-	
+Combo.o: Combo.h Combo.cpp
+letter.o: letter.cpp Dict.h Combo.h
+
 # these targets do not create any files
 .PHONY: all release debug profile static clean alltests partialsubmit fullsubmit help
 # disable built-in rules
